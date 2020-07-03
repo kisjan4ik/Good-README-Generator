@@ -1,14 +1,27 @@
 {
-  "name": "static-site",
+  "name": "good_readme_generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command-line application that allows to quick and easy generate a project README.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Olena Turetska",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisjan4ik/Good-README-Generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/kisjan4ik/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/kisjan4ik/Good-README-Generator#readme"
 }

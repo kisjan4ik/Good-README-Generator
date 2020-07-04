@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+// const generateMarkdown = require("./utils/generateMarkdown");
 
 
 
@@ -69,17 +70,17 @@ function promptUser() {
 
 //function to generate badge
 
-function licenceBadge (licence){
-    license = answers.license
-        return `[![GitHub license](https://img.shields.io/badge/license-${license}-green.svg)]()`
-    
-}
+// function licenceBadge (license){
+// //    var license = answers.license
+//         return `[![GitHub license](https://img.shields.io/badge/license-${license}-green.svg)()`
+//     ${licenceBadge(answers.license)}
+// }
 
 // function to generate markdown for README
 function generateMarkdown(answers) {
     return `# ${answers.title}
 
-  ${licenceBadge()}
+![badge](https://img.shields.io/badge/license-${answers.license}-green.svg)
 
   ## Description
 
@@ -104,8 +105,8 @@ function generateMarkdown(answers) {
   ${answers.usage}
 
   ## License
-
-  ${answers.license}
+  
+  This project is licensed under:  ${answers.license}
 
   ## Contributing
 
@@ -124,19 +125,19 @@ function generateMarkdown(answers) {
 }
 
 async function init() {
-    console.log("*****Generating README***** ")
+    console.log("\n*****Generating README*****\n")
     try {
         const answers = await promptUser();
 
         const markdown = generateMarkdown(answers);
 
-        await writeFileAsync("README.MD", markdown);
+        await writeFileAsync("Generated_README.MD", markdown);
 
-        console.log("Successfully wrote to README.MD");
+        console.log("Successfully generated to README.MD");
     } catch (err) {
         console.log(err);
     }
 }
 
 init();
-// module.exports = generateMarkdown;
+module.exports = generateMarkdown;

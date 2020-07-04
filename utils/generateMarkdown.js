@@ -5,42 +5,42 @@ function generateMarkdown(answers) {
 
 ![Github license](https://img.shields.io/badge/license-${answers.license}-green.svg)
 
-  # Description
+  ## Description
 
   ${answers.description}
 
   
-  # Table of Contents:
+  ## Table of Contents:
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+  * [Installation](##installation)
+  * [Usage](##usage)
+  * [License](##license)
+  * [Contributing](##contributing)
+  * [Tests](##tests)
+  * [Questions](##questions)
   
-  # Installation
+  ## Installation
 
   To correctly use this project you need to install:
   ${answers.installation}
 
-  # Usage
+  ## Usage
 
   ${answers.usage}
 
-  # License
+  ## License
   
   This project is licensed under:  ${answers.license}
 
-  # Contributing
+  ## Contributing
 
   ${answers.contributing}
 
-  # Tests
+  ## Tests
 
   ${answers.tests}
 
-  # Questions
+  ## Questions
 
   My GitHub Page:  https://github.com/${answers.github}
 

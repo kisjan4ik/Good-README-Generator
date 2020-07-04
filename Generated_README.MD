@@ -1,10 +1,10 @@
-# Good Readme Generator
+# TEST
 
-![badge](https://img.shields.io/badge/license-ISC license-green.svg)
+![Github license](https://img.shields.io/badge/license-MIT-green.svg)
 
   ## Description
 
-  creating readme
+  kjkdgfd;
 
   ## Table of Contents:
 
@@ -18,27 +18,27 @@
   ## Installation
 
   To correctly use this project you need to install:
-  npm i
+  clzxkcl;z
 
   ## Usage
 
-  generate readme
+  sdfkdslksd;
 
   ## License
   
-  This project is licensed under:  ISC license
+  This project is licensed under:  MIT
 
   ## Contributing
 
-  debug
+  dvlkxc;
 
   ## Tests
 
-  test
+  kdskvmsd.x
 
   ## Questions
 
-  My GitHub Page:  https://github.com/kisjan4ik
+  My GitHub Page:  https://github.com/dmfkldsmvlxc
 
-  Email: oturetska@yahoo.com
+  Email: smdkflds;
   
